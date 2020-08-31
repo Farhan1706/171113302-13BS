@@ -99,7 +99,7 @@ session_start();
                         </div>
                     </div>
                     
-                    <button type="button" name="user_add" class="user_add btn btn-primary mr-2" onclick="showWarningToast()">Submit</button>
+                    <button type="submit" name="user_add" class="user_add btn btn-primary mr-2" onclick="showWarningToast()">Submit</button>
                     <button type="button" name="user_upd" class="user_upd btn btn-success mr-2" onclick="showSuccessToast()">Update User</button>
                     <button type="button" name="user_rmo" class="user_rmo btn btn-danger mr-2 " onclick="showDangerToast()">Remove User</button>
                     <button class="btn btn-outline-warning btn-fw col-10 mt-2">Cancel</button>
