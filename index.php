@@ -162,6 +162,27 @@ include('connectDB.php');
               </div>
             </div>
           </div>
+
+                <!-- Button untuk alerts -->
+                <div class="row">
+                  <div class="col-12 grid-margin">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                          <div class="card-body">
+                            <div class="wrapper text-center">
+                              <h4 class="card-title">Buat Notif Berhasil Absen</h4>
+                              <p class="card-description">Pake ini buat Absensi Nanti!</p>
+                              <button class="btn btn-outline-success" onclick="showSwal('auto-close')">Panggil Fungsi showSwal('auto-close')</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END ALERT -->
+
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:./partials/_footer.html -->
@@ -180,6 +201,7 @@ include('connectDB.php');
   <!-- Plugin js for this page-->
   <script src="vendors/chart.js/Chart.min.js"></script>
   <script src="js/chart.js"></script>
+  <script src="vendors/js/sweetalert.min.js"></script>
   <!-- End plugin js for this page-->
   <!-- inject:js -->
   <script src="js/off-canvas.js"></script>
@@ -194,6 +216,7 @@ include('connectDB.php');
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+  <script src="js/alerts.js"></script>
   <script>
   $(document).ready(function() {
       $('#tampilData').dataTable( {
